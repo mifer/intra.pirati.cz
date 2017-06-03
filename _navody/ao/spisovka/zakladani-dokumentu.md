@@ -15,13 +15,13 @@
          * [6.4 Potřebný výcvik](#64-potřebný-výcvik)
       * [7. Typické kroky během postupu](#7-typické-kroky-během-postupu)
          * [7.1 Posouzení režimu dokumentu](#71-posouzení-režimu-dokumentu)
-         * [7.1 Nalezení spisu](#71-nalezení-spisu)
-         * [7.2 Digitalizace papírového dokumentu](#72-digitalizace-papírového-dokumentu)
-         * [7.3 Nahrání dokumentu do úložiště](#73-nahrání-dokumentu-do-úložiště)
-         * [7.4 Určení termínu pro reakci](#74-určení-termínu-pro-reakci)
-         * [7.5 Vložení poznámky do úkolovníku](#75-vložení-poznámky-do-úkolovníku)
-         * [7.6 Zaúkolování zodpovědného člověka](#76-zaúkolování-zodpovědného-člověka)
-         * [7.7 Vykázání času](#77-vykázání-času)
+         * [7.2 Nalezení spisu](#72-nalezení-spisu)
+         * [7.3 Digitalizace papírového dokumentu](#73-digitalizace-papírového-dokumentu)
+         * [7.4 Nahrání dokumentu do úložiště](#74-nahrání-dokumentu-do-úložiště)
+         * [7.5 Určení termínu pro reakci](#75-určení-termínu-pro-reakci)
+         * [7.6 Vložení poznámky do úkolovníku](#76-vložení-poznámky-do-úkolovníku)
+         * [7.7 Zaúkolování zodpovědného člověka](#77-zaúkolování-zodpovědného-člověka)
+         * [7.8 Vykázání času](#78-vykázání-času)
       * [8. Typický výstup procesu](#8-typický-výstup-procesu)
          * [8.1 Vytvořené informace](#81-vytvořené-informace)
       * [9. Rizika](#9-rizika)
@@ -131,7 +131,7 @@ Referent spisové služby musí být zaškolen
 Podle tohoto postupu se nepostupuje a je třeba použít zvláštní postup, 
 pokud se v dané věci nezakládá spis, viz [postup pro zakládání spisů][postup-spisy].
 
-### 7.1 Nalezení spisu
+### 7.2 Nalezení spisu
 
 * Související spis najdu vždy v repozitáři nebo projektu toho týmu, kterého se spis týká.
 
@@ -153,7 +153,7 @@ založím spis podle [postupu pro založení spisu][postup-spisy].
 
 [postup-spisy]: zakladani-spisu.md
 
-### 7.2 Digitalizace papírového dokumentu
+### 7.3 Digitalizace papírového dokumentu
 
 * Pokud je příchozí dokument papírový, referent (pokud možno) na jeho 
 horní část zaznamená, kdy byl doručen a číslo spisu, kterého se týká 
@@ -168,7 +168,7 @@ spisové službě daného týmu, typicky v jeho skříni, viz
 [postupu pro založení spisu][postup-spisy].
 
 
-### 7.3 Nahrání dokumentu do úložiště
+### 7.4 Nahrání dokumentu do úložiště
 
 * Nyní tedy již mám číslo spisu, kterého se dokument týká.
 
@@ -189,7 +189,7 @@ se uvádí s uvozovacími nulami vždy na 2 cifry, aby se dokumenty správně ř
 zákonem určitou věc zveřejnit, zeptá se vedoucího týmu nebo jeho zástupce,
 případně použije soukromou poznámku či vloží spis do soukromého úložiště.
 
-### 7.4 Určení termínu pro reakci
+### 7.5 Určení termínu pro reakci
 
 * Pro určení termínu pro uzavření je podstatné
 datum, kdy nám byl dokument doručen nebo byl odeslán (podle údajů v datové
@@ -212,7 +212,7 @@ do kdy je třeba podat odvolání v 15denní lhůtě podle poučení v příchoz
 a kdy tedy bude případně nutné urgovat vyřízení naší žádosti, pokud
 nedostaneme žádnou odpověď (např. podat stížnost kvůli nečinnosti).
 
-### 7.5 Vložení poznámky do úkolovníku
+### 7.6 Vložení poznámky do úkolovníku
 
 * Nyní je potřeba vložit poznámku o založeném dokumentu do příslušného úkolu
   na [redmine](https://redmine.pirati.cz).
@@ -235,7 +235,7 @@ nedostaneme žádnou odpověď (např. podat stížnost kvůli nečinnosti).
  ![Poznámka redmine](poznamka-redmine.png)
 
 
-### 7.6 Zaúkolování zodpovědného člověka
+### 7.7 Zaúkolování zodpovědného člověka
 
 Pokud věc vyřizuje někdo jiný než referent, informuje referent tohoto člověka
 o tom, že byl založen dokument a jak a do kdy je třeba reagovat či rozhodnout
@@ -249,10 +249,10 @@ tohoto člověka a udělá všechny následující věci:
 Doporučený postup je vyřizovat došlé věci obratem, kdykoliv je to v našem
 zájmu, nikoliv až na konci lhůty.
 
-### 7.7 Vykázání času
+### 7.8 Vykázání času
 
-Práce se spisovkou se vykazuje jako administrativa pod sběrným úkolem
-    spisová služba, viz [přehled spisových služeb][prehled-ss].
+Práce se spisovkou se vykazuje jako administrativa pod příslušným sběrným úkolem
+spisová služba, viz [přehled spisových služeb][prehled-ss].
 
 [prehled-ss]: https://redmine.pirati.cz/issues?utf8=%E2%9C%93&set_filter=1&f%5B%5D=status_id&op%5Bstatus_id%5D=o&f%5B%5D=subject&op%5Bsubject%5D=~&v%5Bsubject%5D%5B%5D=spisov%C3%A1+slu%C5%BEba&f%5B%5D=&c%5B%5D=project&c%5B%5D=subject&c%5B%5D=assigned_to&group_by=&t%5B%5D=
 
