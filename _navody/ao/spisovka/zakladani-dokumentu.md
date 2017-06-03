@@ -23,7 +23,7 @@
          * [7.6 Zaúkolování zodpovědného člověka](#76-zaúkolování-zodpovědného-člověka)
          * [7.7 Vykázání času](#77-vykázání-času)
       * [8. Typický výstup procesu](#8-typický-výstup-procesu)
-         * [8.1 Vytvořená informace](#81-vytvořená-informace)
+         * [8.1 Vytvořené informace](#81-vytvořené-informace)
       * [9. Rizika](#9-rizika)
          * [9.1 Nezaložení dokumentu](#91-nezaložení-dokumentu)
          * [9.2 Chybná data](#92-chybná-data)
@@ -88,7 +88,7 @@ podobě je, abychom
 3.  Za založení dokumentu má zodpovědnost referent spisové služby. Pro tento
     účel má pravomoc využívat nastavená oprávnění v informačním systému.
 4.  Za včasnou reakci, hlídání lhůt a postup odpovídá člověk, kterému je daný spis přiřazen v úkolovníku. Ten se může domluvit s referentem na hlídání termínů.
-5.  Metodickou podporu ke spisové službě poskytuje na základní úrovni Jan Loužek, zveřejňovač klubu Pirátů v Zastupitelstvu hl. m. Prahy, na vyšší úrovni Jakub Michálek, místopředseda strany.
+5.  Metodickou podporu ke spisové službě poskytuje na základní úrovni [Jan Loužek](https://praha.pirati.cz/lide/jan-louzek/), zveřejňovač klubu Pirátů v Zastupitelstvu hl. m. Prahy, na vyšší úrovni [Jakub Michálek](https://praha.pirati.cz/lide/jakub-michalek/), místopředseda strany.
 
 [or]: https://wiki.pirati.cz/rules/or#administrativni_odbor
 
@@ -128,7 +128,8 @@ Referent spisové služby musí být zaškolen
 
 ### 7.1 Posouzení režimu dokumentu
 
-Podle tohoto postupu se nepostupuje a je třeba použít zvláštní postup, pokud se v dané věci nezakládá spis, viz [postup pro zakládání spisů][postup-spisy].
+Podle tohoto postupu se nepostupuje a je třeba použít zvláštní postup, 
+pokud se v dané věci nezakládá spis, viz [postup pro zakládání spisů][postup-spisy].
 
 ### 7.1 Nalezení spisu
 
@@ -154,11 +155,17 @@ založím spis podle [postupu pro založení spisu][postup-spisy].
 
 ### 7.2 Digitalizace papírového dokumentu
 
-* Pokud je příchozí dokument papírový, referent (pokud možno) na jeho horní část zaznamená, kdy byl doručen a číslo spisu, kterého se týká (pro tento účel lze poučít i razítko).
+* Pokud je příchozí dokument papírový, referent (pokud možno) na jeho 
+horní část zaznamená, kdy byl doručen a číslo spisu, kterého se týká 
+(pro tento účel lze poučít i razítko).
 
-* Takto označený dokument referent naskenuje nebo vyfotí a převede do formátu PDF; body 7.2 a následující se týkají pouze elektronické podoby dokumentu.
+* Takto označený dokument referent naskenuje nebo vyfotí a převede do 
+formátu PDF; body 7.2 a následující se týkají pouze elektronické 
+podoby dokumentu.
 
-* Papírovou podobu založí do papírového spisu, který je uložen v papírové spisové službě daného týmu, typicky v jeho skříni, viz [postupu pro založení spisu][postup-spisy].
+* Papírovou podobu založí do papírového spisu, který je uložen v papírové 
+spisové službě daného týmu, typicky v jeho skříni, viz 
+[postupu pro založení spisu][postup-spisy].
 
 
 ### 7.3 Nahrání dokumentu do úložiště
@@ -189,14 +196,16 @@ datum, kdy nám byl dokument doručen nebo byl odeslán (podle údajů v datové
 schránce nebo vyzvednutí na poště).
 
 * Datum doručení nebo
-odeslání a výpočet lhůty je potřeba průkazně zaznamenat. Datum doručení je určeno [pravidly pro doručování](http://www.mvcr.cz/clanek/obcane-tretich-zemi-prubeh-rizeni-prijimani-a-dorucovani-pisemnosti.aspx). Na správné určení data doručení je potřeba
+odeslání a výpočet lhůty je potřeba průkazně zaznamenat. Datum doručení 
+je určeno [pravidly pro doručování](http://www.mvcr.cz/clanek/obcane-tretich-zemi-prubeh-rizeni-prijimani-a-dorucovani-pisemnosti.aspx). Na správné určení data doručení je potřeba
 si dát velký pozor, protože právě od něho se lhůty odvíjejí.
 
-Lhůta je určena věcí, o kterou jde, a typicky vyplývá ze zákona nebo ze standardního obchodního styku. Vypočtěte tedy den lhůty,
+Lhůta je určena věcí, o kterou jde, a typicky vyplývá ze zákona 
+nebo ze standardního obchodního styku. Vypočtěte tedy den lhůty,
 do kdy je třeba spisu věnovat pozornost:
 
-* V případě **příchozího dokumentu** je termínem pro reakci například den, do kdy je třeba
-podat odvolání v 15denní lhůtě podle poučení v příchozím dokumentu,
+* V případě **příchozího dokumentu** je termínem pro reakci například den, 
+do kdy je třeba podat odvolání v 15denní lhůtě podle poučení v příchozím dokumentu,
 
 * v případě **odchozího dokumentu** je termínem pro reakci den, kdy uplyne
 úřadu zákonná nebo jiná přiměřená lhůta (plus případně několik dní k dobru),
@@ -206,22 +215,22 @@ nedostaneme žádnou odpověď (např. podat stížnost kvůli nečinnosti).
 ### 7.5 Vložení poznámky do úkolovníku
 
 * Nyní je potřeba vložit poznámku o založeném dokumentu do příslušného úkolu
-na [redmine](https://redmine.pirati.cz).
+  na [redmine](https://redmine.pirati.cz).
 
 * Najděte si příslušný úkol na redmine podle čísla (zde je to
-úkol 4558) a klikněte na tlačítko ``Upravit`` v horní liště.
+  úkol 4558) a klikněte na tlačítko ``Upravit`` v horní liště.
 
 * Přidejte také hypertextový odkaz na
-konkrétní dokument v úložišti (pokud možno rovnou na náhled příslušného
-pdf dokumentu). Tento hypertextový odkaz najdete přímo po rozkliknutí
-struktury souborů ve spisovém repozitáři.
+  konkrétní dokument v úložišti (pokud možno rovnou na náhled příslušného
+  pdf dokumentu). Tento hypertextový odkaz najdete přímo po rozkliknutí
+  struktury souborů ve spisovém repozitáři.
 
 
 * Napište do textového pole
-poznámku, kdy byl dokument doručen nebo odeslán, co a kdy je potřeba udělat, tj. termín pro reakci (viz obrázek níže).
+  poznámku, kdy byl dokument doručen nebo odeslán, co a kdy je 
+  potřeba udělat, tj. termín pro reakci (viz obrázek níže).
 
-* Lhůta se zároveň nastaví do pole
-  ``Uzavřít do`` u daného úkolu.
+* Lhůta se zároveň nastaví do pole ``Uzavřít do`` u daného úkolu.
 
  ![Poznámka redmine](poznamka-redmine.png)
 
@@ -249,7 +258,7 @@ Práce se spisovkou se vykazuje jako administrativa pod sběrným úkolem
 
 ## 8. Typický výstup procesu
 
-### 8.1 Vytvořená informace
+### 8.1 Vytvořené informace
 
 * Založený (odeslaný či přijatý) dokument v systému,
 * založený úkol v úkolovníku a nastavený termín pro reakci v dané věci,
