@@ -1,5 +1,37 @@
 # Zakládání dokumentů do spisové služby
 
+## Obsah
+
+   * [Zakládání dokumentů do spisové služby](#zakládání-dokumentů-do-spisové-služby)
+      * [1. Úvod](#1-Úvod)
+      * [2. Zodpovědnost za nastavení tohoto procesu](#2-zodpovědnost-za-nastavení-tohoto-procesu)
+      * [3. Definice procesu](#3-definice-procesu)
+      * [4. Cíle procesu](#4-cíle-procesu)
+      * [5. Manažer procesu a zodpovědnosti](#5-manažer-procesu-a-zodpovědnosti)
+      * [6. Typické vstupy procesu](#6-typické-vstupy-procesu)
+         * [6.1 Potřebné informace](#61-potřebné-informace)
+         * [6.2 Potřebné zdroje](#62-potřebné-zdroje)
+         * [6.3 Potřebný personál](#63-potřebný-personál)
+         * [6.4 Potřebný výcvik](#64-potřebný-výcvik)
+      * [7. Typické kroky během postupu](#7-typické-kroky-během-postupu)
+         * [7.1 Posouzení režimu dokumentu](#71-posouzení-režimu-dokumentu)
+         * [7.1 Nalezení spisu](#71-nalezení-spisu)
+         * [7.2 Digitalizace papírového dokumentu](#72-digitalizace-papírového-dokumentu)
+         * [7.3 Nahrání dokumentu do úložiště](#73-nahrání-dokumentu-do-úložiště)
+         * [7.4 Určení termínu pro reakci](#74-určení-termínu-pro-reakci)
+         * [7.5 Vložení poznámky do úkolovníku](#75-vložení-poznámky-do-úkolovníku)
+         * [7.6 Zaúkolování zodpovědného člověka](#76-zaúkolování-zodpovědného-člověka)
+         * [7.7 Vykázání času](#77-vykázání-času)
+      * [8. Typický výstup procesu](#8-typický-výstup-procesu)
+         * [8.1 Vytvořená informace](#81-vytvořená-informace)
+      * [9. Rizika](#9-rizika)
+         * [9.1 Nezaložení dokumentu](#91-nezaložení-dokumentu)
+         * [9.2 Chybná data](#92-chybná-data)
+      * [10. Související](#10-související)
+         * [10.1 Procesy](#101-procesy)
+         * [10.2 Právní podklad](#102-právní-podklad)
+         * [10.3 Literatura](#103-literatura)
+
 ## 1. Úvod
 
 1.  Tento dokument podrobně definuje proces zakládání dokumentů do spisů ve
