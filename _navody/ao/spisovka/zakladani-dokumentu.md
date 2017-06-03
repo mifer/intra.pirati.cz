@@ -34,10 +34,10 @@
 
 ## 1. Úvod
 
-1.  Tento dokument podrobně definuje proces zakládání dokumentů do spisů ve
-    spisové službě.
-2.  Založení dokumentu do spisové služby předchází jednak tvorba dokumentů a
-    jednak [založení spisu].
+* Tento dokument podrobně definuje proces zakládání dokumentů do spisů ve
+  spisové službě.
+* Založení dokumentu do spisové služby předchází jednak tvorba dokumentů a
+  jednak [založení spisu].
 
 ## 2. Zodpovědnost za nastavení tohoto procesu
 
