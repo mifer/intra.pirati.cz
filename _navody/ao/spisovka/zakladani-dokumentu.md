@@ -13,8 +13,8 @@ manažer: administrativní odbor
 * Založení dokumentu do spisové služby předchází jednak tvorba dokumentů a
   jednak [založení spisu][postup-spisy].
 
-* Tento proces je podprocesem [vedení spisové služby][postup-spisovka]. Pokud není uvedeno či z
-  kontextu nevyplývá něco jiného, platí pro tento podproces totéž, co pro
+* Tento proces je součástí [vedení spisové služby][postup-spisovka]. Pokud není uvedeno či z
+  kontextu nevyplývá něco jiného, platí pro něj totéž, co pro
   nadřízený proces.
 
 ## Definice procesu
@@ -24,7 +24,7 @@ podobě je, abychom
 
 * zamezili ztrátě jeho originálu,
 * zajistili autenticitu elektronické podoby,
-* zrychlili sdílení dokumentu mezi lidmi v organizaci a
+* zrychlili sdílení dokumentu mezi lidmi v organizaci (každý dokument je k dispozici jak lokálně, tak i na serveru s vlastním URL) a
 * usnadnili orientaci ve věci spisu a tedy zastupitelnost a audit a
 * usnadnili pozdější vyhledání dokumentu.
 
@@ -38,75 +38,60 @@ podobě je, abychom
 
 ## Typické vstupy procesu
 
-### Potřebné informace
+Tj. odkud nám chodí dokumenty, které zakládáme do spisů Spisové služby?
 
-* příchozí dokument do datové schránky, poštovní schránky, případně
-  v odůvodněných případech e-mailové pošty, nebo
-* odchozí dokument ve formátu PDF.
+* Datová schránka (evidujeme každý příchozí i odchozí dokument)
+* Poštovní schránka (evidujeme každý příchodzí i odchozí dopis).
+* E-mailová komunikace (jedná-li se o relevantní případ, např. na žádost odeslanou datovou schránkou odpoví e-mailem, obdržíme podnět od občana e-mailem apod). 
+* Jakýkoliv jiný způsob, kdy obdržíme relevantní dokument, který přísluší danému spisu (např. úředník přinese písemnost osobně).
 
-## Typický postup
+### 1. Kam ten dokument patří?
 
-Přijde mi dokument k založení do spisové služby. Konkrétně ho budeme zakládat
-do spisu, který koresponduje s jedním úkolem v úkolovníku a jednou složkou ve
-spisovém repozitáři, viz podrobně [postup pro založení spisu][postup-spisy].
+Každý dokument, který je zařazen do spisové služby musí mít právě jednu:
 
-### 1. Posouzení režimu dokumentu
+* Vlastní složku na githubovém repozitáři, která existuje rovněž i lokálně.
+* Vlastní úkol v příslušném projektu v Redminu.
 
-Podle tohoto postupu se nepostupuje a je třeba použít zvláštní postup,
-pokud se v dané věci nezakládá spis, viz [postup pro zakládání spisů][postup-spisy].
+Podrobně: [postup pro založení spisu][postup-spisy].
 
-### 2. Hledání spisu
+### 2. Jaký spis je k dané věci správný?
 
-Související spis se pokusíme dohledat vždy
+Související spis se pokuste dohledat vždy
 
 * v projektu toho týmu, kterého se spis týká, viz
   [seznam projektů](https://redmine.pirati.cz/projects) na úkolovníku,
 
 * v repozitáři toho týmu, kterého se spis týká, viz
-  [seznam spisových repozitářů][spisy] v úložišti.
+  [seznam spisových repozitářů][spisy] v úložišti Githubu.
 
-Příklady tipů k dohledání spisu podle druhu dokumentu:
+Klíčovými informacemi k dohledání konkrétního spisu jsou:
+    
+    1. Spisová značka, kterou tvoří zkratka orgánu Pirátské strany (např. RP pro Republikové předsednictvo, ZK Pha pro zastupitelský klub v Praze). Spisová značka je unikátní pro uvedený spis a má odpovídající úkol se stejným číslem na Redminu.
+    2. Subjekt, se kterým je vedena komunikace: Najděte případy, kdy příslušný orgán komunikoval s druhou stranou (např. s Českou televizí, Magistrátem města Brna apod). Vylučte poté ty případy, kde je předmět komunikace odlišný.
+    3. Datum odeslání dokumentu: Pokud Vám zašle protistrana dokument, ve kterém Vaší spisovou značku neuvede, je dobré dohledat datum odeslání dokumentu, na který druhá strana odkazuje. 
 
-* Pokud jde o náš první **odchozí dokument**, vždy by v něm měla být uvedena naše spisová značka
-(např. RP #2343), tedy spis je potřeba zakládat před tím, než vygeneruji
-odchozí dokument do PDF, viz [postup pro založení spisu][postup-spisy].
-Stačí v podstatě založit před vygenerováním dokumentu úkol v redmine.
-To by měl vědět každý, kdo takové dokumenty generuje, protože jinak nebude
-v reakcích našich partnerů spisová značka a spisy se nám budou hůře zakládat.
+První spis lze většinou dohledat podle kroku č. 1. Pokud se to nepovede, postupujte podle dalších bodů postupně. Nedokážete-li odpovídající spis najít, založte nový. 
 
-* Pokud jde o **příchozí dokument**, zjistím nejprve, zda již v dané věci
-existuje spis. Spis existuje, pokud jsme již v dané věci někomu něco
-posílali nebo oni již něco posílali nám. Poznám to například tak, že
-v příchozím dokumentu reagují na nějaký náš odeslaný dokument a uvádějí
-naši spisovou značku (např. RP #2343), nebo si zkusím vyhledat věc
-v úkolovníku nebo na úložišti podle klíčových slov. Pokud spis neexistuje (tj. jde o první
-příchozí dokument v dané věci, např. nějaké upozornění ze strany úřadů),
-založím spis podle [postupu pro založení spisu][postup-spisy].
+### 3. Jak digitalizujeme dokumenty v papírové podobě? 
 
+* Na obdržený dopis napište odpovídající číslo úkolu v Redminu a datum obdržení.
 
-### 3. Digitalizace papírového dokumentu
-
-* Pokud je příchozí dokument papírový, referent (pokud možno) na jeho
-horní část zaznamená, kdy byl doručen a číslo spisu, kterého se týká
-(pro tento účel lze poučít i razítko).
-
-* Takto označený dokument referent naskenuje nebo vyfotí a převede do
-formátu PDF; body 7.2 a následující se týkají pouze elektronické
+* Poté jej naskenujte/vyfoťte a převeďte do PDF. Body 7.2 a následující se týkají pouze elektronické
 podoby dokumentu.
 
-* Papírovou podobu založí do papírového spisu, který je uložen v papírové
+* Papírový originál dokumentu založte do papírového spisu, který je uložen v papírové
 spisové službě daného týmu, typicky v jeho skříni, viz
-[postupu pro založení spisu][postup-spisy].
+[postupu pro založení spisu][postup-spisy]. Papírový spis je kopií digitálního; pouze však pro ty dokumenty, které mají papírový originál. Netiskněte dokumenty, které přicházejí elektronicky!
 
+### 4. Jak digitalizované dokumenty nahrajeme do úložiště?
 
-### 4. Nahrání dokumentu do úložiště
+Digitalizovaný dokument (buď PDF, které jste získali z datové schránky, nebo ten, který jste naskenovali apod). nahrajte na odpovídající githubový repozitář do odpovídající složky. 
 
-Nyní tedy již mám číslo spisu, kterého se dokument týká. Zakládaný dokument
-nahraju pomocí gitu do úložiště na githubu.
+Adresářová struktura na repozitáři má jasně daná pravidla: 
 
 * Název složky je tvořen číslem úkolu, spojovníkem a zkráceným názvem bez diakritiky (např. ``1234-odmeny-krobove-hasove``).
 
-* V každé složce jsou obdobné podsložky pro jednotlivé dokumenty
+* V každé složce vytvářejte obdobné podsložky pro jednotlivé dokumenty
   (např. ``02-odvolani``). Ve složkách jsou i přílohy.
 
 * Dokument je třeba nahrát do podsložky daného spisu, která je nazvána podle
@@ -117,13 +102,13 @@ nahraju pomocí gitu do úložiště na githubu.
 ![Seznam dokumentů na githubu](img/seznam-dokumentu.png)
 
 * Pořadové číslo dokumentu
-se uvádí s uvozovacími nulami vždy na 2 cifry, aby se dokumenty správně řadily.
+se uvádí s uvozovacími nulami vždy na 2 cifry, aby se dokumenty řadily chronologicky. První zařazený dokument má nejnižší číslo; poslední má číslo nejvyšší. Čísla přidělujte podle data obdržení dokumentu. 
 
-* Pokud má referent pochybnost, zda je v zájmu strany nebo v souladu se
-zákonem určitou věc zveřejnit, zeptá se vedoucího týmu nebo jeho zástupce,
-případně použije soukromou poznámku či vloží spis do soukromého úložiště.
+* Pokud máte pochybnost, zda je v zájmu Pirátů nebo v souladu se
+zákonem určitou věc zveřejnit, zeptejte se vedoucího týmu nebo jeho zástupce,
+případně použije soukromou poznámku či vložte spis do soukromého úložiště.
 
-### 5. Určení termínu pro reakci
+### 5. Jak určíme termín, do kdy danou věc vyřešit?
 
 * Pro určení termínu pro uzavření je podstatné
 datum, kdy nám byl dokument doručen nebo byl odeslán (podle údajů v datové
@@ -138,27 +123,24 @@ Lhůta je určena věcí, o kterou jde, a typicky vyplývá ze zákona
 nebo ze standardního obchodního styku. Vypočtěte tedy den lhůty,
 do kdy je třeba spisu věnovat pozornost:
 
-* V případě **příchozího dokumentu** je termínem pro reakci například den,
-do kdy je třeba podat odvolání v 15denní lhůtě podle poučení v příchozím dokumentu,
+* V případě **příchozího dokumentu** je nezbytné očekávat, že budete muset odpovědět, a to v odpovídající lhůtě. V případě úřední komunikace bude k Vaší škodě, když prošvihnete zákonnou lhůtu. Tuto lhůtu hlídejte velmi důsledně.
 
 * v případě **odchozího dokumentu** je termínem pro reakci den, kdy uplyne
-úřadu zákonná nebo jiná přiměřená lhůta (plus případně několik dní k dobru),
+druhé straně zákonná nebo jiná přiměřená lhůta (plus případně několik dní k dobru),
 a kdy tedy bude případně nutné urgovat vyřízení naší žádosti, pokud
 nedostaneme žádnou odpověď (např. podat stížnost kvůli nečinnosti).
 
-### 6. Vložení poznámky do úkolovníku
+### 6. Jak zaznamenáme co se stalo do Redminu? 
 
 * Nyní je potřeba vložit poznámku o založeném dokumentu do příslušného úkolu
-  na [redmine](https://redmine.pirati.cz).
+  v [Redminu](https://redmine.pirati.cz).
 
-* Najděte si příslušný úkol na redmine podle čísla (zde je to
-  úkol 4558) a klikněte na tlačítko ``Upravit`` v horní liště.
+* Najděte si příslušný úkol v Redminu podle čísla a klikněte na tlačítko ``Upravit`` v horní liště.
 
 * Přidejte také hypertextový odkaz na
   konkrétní dokument v úložišti (pokud možno rovnou na náhled příslušného
   pdf dokumentu). Tento hypertextový odkaz najdete přímo po rozkliknutí
-  struktury souborů ve spisovém repozitáři.
-
+  struktury souborů ve spisovém repozitáři. Jednotlivé dokumenty nenahrávejte přímo na Redmine. 
 
 * Napište do textového pole
   poznámku, kdy byl dokument doručen nebo odeslán, co a kdy je
@@ -167,42 +149,43 @@ nedostaneme žádnou odpověď (např. podat stížnost kvůli nečinnosti).
 
 * Lhůta se zároveň nastaví do pole ``Uzavřít do`` u daného úkolu.
 
+* Pokud byl dokument, zařazený do spisové služby,:
+    
+    a) odeslán (poštou, datovou schránkou apod). a čekáte na vyjádření druhé strany, nastavte hodnotu ``stav`` na **čeká se-oni**
+    b) přijat (obdrželi jste novou zprávu v datové schránce, přišla pošta) a připravujete reakci za Piráty, nastavte hodnotu ``stav`` na **čeká se-my**
+    
  ![Poznámka redmine](img/poznamka-redmine.png)
 
+### 7. Jak zaúkolujeme odpovědného člověka?
 
-### 7. Zaúkolování zodpovědného člověka
+Pokud věc vyřizuje někdo jiný než Vy, informujte tohoto člověka
+o tom, že byl založen dokument a sdělte mu:
 
-Pokud věc vyřizuje někdo jiný než referent, informuje referent tohoto člověka
-o tom, že byl založen dokument a jak a do kdy je třeba reagovat či rozhodnout
-o dalším postupu. Referent zejména dostatečnou dobu před termínem pro reakce
-tohoto člověka a udělá všechny následující věci:
+* o co v daném úkolu jde, jak je třeba jej řešit a do kdy tak musí být učiněno.
+* pošlete mu e-mail, kde bude prvotní dokument přiložen/odkázán.
+* v úkolu v Redminu osobu přiřaďte k odpovídajícímu úkolu.
 
-* kontaktuje osobně či telefonicky s vysvětlením úkolu a termínem,
-* dále mu zašle e-mail, kde bude v příloze nebo pod odkazem založený dokument, a
-* přiřadí zodpovědného člověka do pole ``Přiřazeno`` u daného úkolu v úkolovníku.
-
-Doporučený postup je vyřizovat došlé věci obratem, kdykoliv je to v našem
-zájmu, nikoliv až na konci lhůty.
+Vyřizujte věci obratem, je-li to možné. Počítejte s tím, že ten, komu práci předáváte, potřebuje mít také dodatek času pro formulaci správné odpovědi. Zasílání úkolů na konci lhůty vede k zbytečnému napětí a možným chybám ve spisové službě.  Zasílejte proto potřebné informace vždy včas!
 
 [prehled-ss]: https://redmine.pirati.cz/issues?utf8=%E2%9C%93&set_filter=1&f%5B%5D=status_id&op%5Bstatus_id%5D=o&f%5B%5D=subject&op%5Bsubject%5D=~&v%5Bsubject%5D%5B%5D=spisov%C3%A1+slu%C5%BEba&f%5B%5D=&c%5B%5D=project&c%5B%5D=subject&c%5B%5D=assigned_to&group_by=&t%5B%5D=
 
 ## Typický výstup procesu
 
-* Založený (odeslaný či přijatý) dokument v systému,
-* založený úkol v úkolovníku a nastavený termín pro reakci v dané věci,
-* prokazatelně informovaná osoba, která má dokument vyřídit.
+* Přijatý, či odeslaný dokument je evidován v spisové službě 
+* V Redminu je založen odpovídající úkol a nastaven termín pro reakci v dané věci. 
+* Osoba, která má danou věc vyřídit, byla o záležitosti prokazatelně informována. 
 
 ## Rizika
 
 ### Nezaložení dokumentu
 
 * Riziko je středně pravděpodobné a může být vážné, protože dokument nebude dohledatelný v okamžiku, kdy ho potřeba.
-* Ke zmírnění rizika slouží jednotný a centrální systém zakládání dokumentů v rámci daného týmu, dobrý výcvik referentů spisové služby a informovanost všech lidí o povinnosti zakládat podstatné dokumenty do spisové služby (např. zastupitelů, hospodářů apod.).
+* Ke zmírnění rizika slouží jednotný a centrální systém zakládání dokumentů v rámci daného týmu, dobrý výcvik osob, které vedou spisovou službu, a informovanost všech lidí o povinnosti zakládat podstatné dokumenty do spisové služby (např. zastupitelů, hospodářů apod.).
 
 ### Chybná data
 
 * Riziko chybného založení termínu či chybný výpočet lhůty je středně pravděpodobné a může být vážné, pokud prošvihneme lhůtu pro důležité odvolání nebo stížnost.
-* Ke zmírnění rizika je potřeba, aby se referent spisové služby dobře soustředil během výpočtu lhůty, aby byl náležitě poučen o pravidlech stanovení okamžiku doručení, určení lhůt z platných předpisů a výpočtu hmotněprávních a procesněprávních lhůt. Proto je třeba složitější výpočty lhůty zdokumentovat.
+* Ke zmírnění rizika je potřeba, aby odpovědná osoba dobře znala mechanismus výpočtu lhůt při komunikaci s úřady. Lhůty, které jsou složitěji vypočítávané, je nezbytné v příslušné poznámce v odpovídajícím úkolu v Redminu rozepsat (např. ``7 dní pro předání + 15 dní pro odpověď``, tj. čas máme do 13. prosince 2022) apod. 
 
 ## Související
 
