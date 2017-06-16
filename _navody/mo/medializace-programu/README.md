@@ -268,7 +268,3 @@ hodnocení výkonnosti výše).
 
 * Zmocňovací ustanovení pro mediální odbor je v organizačním řádu
   ([§ 11 odst. 2 písm. a) organizačního řádu][or]).
-
-### Literatura
-
-Ludmila Sulitková: [Archivnictví a spisová služba](http://ff.ujep.cz/archivnictvi/spisova_sluzba.pdf). FF UJEP.
