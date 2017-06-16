@@ -230,8 +230,12 @@ Seznam aktivit, které lze využít při propagaci tématu:
 
 ### 6. Vyhodnocení mediálního zásahu
 
-Po proběhnutí všech akcí celou propagaci tématu vyhodnoťte (viz část
+* Po proběhnutí všech akcí celou propagaci tématu vyhodnoťte (viz část
 hodnocení výkonnosti výše).
+* Vyhodnocení (např. pomocí monitoringu) je důležité kvůli tomu, že velmi zrychluje
+  proces učení tím, že vám dá zpětnou vazbu, co fungovalo a co ne. 
+* Dobrý monitoring také přesně ukáže mediální dopad v absolutních číslech, takže se
+  můžete soustředit příště na ty mediální výstupy, které mají největší mediální dopad.
 
 ## Typický výstup procesu
 
