@@ -1,6 +1,6 @@
 ---
 typ:  hlavní
-manažer: volební štáb
+manažer: mediální odbor
 ---
 
 # Propagace tématu
