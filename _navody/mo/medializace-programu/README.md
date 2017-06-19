@@ -82,7 +82,7 @@ Velikost mediálního průseru je hodnocena stejně jako u mediálního zásahu.
 Jde např. o
 
 * extrémně nesrozumitelné vysvětlení programu či usvědčení ze lhaní či neodbornosti, porušování
-  programu či jiného zavrženíhodného programu anebo zatloukání,
+  programu či jiné zavrženíhodné jednání anebo zatloukání,
 * prohlášení názoru, který je v rozporu s programem strany a je jí v důsledku
   toho mylně připisován (např. vystoupení z NATO)
 * nepřijatelné vystupování mluvčího (opilost, špatné oblečení).
